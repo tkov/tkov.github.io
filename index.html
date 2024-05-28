@@ -1,9 +1,61 @@
-<html>
-  <head>
-    <title>Home</title>
-  </head>
-  <body>
-    Homepage
-    Hello
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic UI</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- vertical (side) menu -->
+<div class="ui vertical-menu vertical menu inverted fixed">
+    <a class="item">
+    tkov.io
+    </a>
+    <div class="item">
+        <b>Grouped Section</b>
+        <div class="menu">
+        <a class="item">Subsection 1</a>
+        <a class="active item">Subsection 1</a>
+        <a class="item">Subsection 1</a>
+        </div>
+    </div>
+    <div class="ui dropdown item">
+        Dropdown <i class="dropdown icon"></i>
+        <div class="menu">
+        <div class="item">Choice 1</div>
+        <div class="item">Choice 2</div>
+        <div class="item">Choice 3</div>
+        </div>
+    </div>
+</div>
+<!-- main content -->
+<div class="ui inverted vertical masthead segment">
+    <div class="ui text container left aligned">
+        <h1 class="ui inverted header">
+          Main Header
+        </h1>
+      </div>
+      
+</div>
+<div class="ui vertical masthead segment">
+    <div class="ui text container left aligned">
+    <div class="ui card">
+        <h1>Hello</h1>
+        <p>There</p>
+    </div>
+    </div>
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js" integrity="sha512-dqw6X88iGgZlTsONxZK9ePmJEFrmHwpuMrsUChjAw1mRUhUITE5QU9pkcSox+ynfLhL15Sv2al5A0LVyDCmtUw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script> 
+    $(document).ready(function(){
+         $('.ui.dropdown') .dropdown();
+   });
+   </script>
+</body>
 </html>
