@@ -1,0 +1,19 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+a:link {
+  color: black;
+}
